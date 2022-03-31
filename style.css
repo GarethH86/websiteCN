@@ -1,0 +1,80 @@
+/* You can only make one css file for all 3 pages*/
+h1 {
+    color:red;
+    font-size: 30px;
+}
+
+body {
+    background-color:#121619;
+}
+
+.intro{
+    color: orange;
+}
+
+.info{
+    color: ghostwhite;
+}
+.enquires{
+    color:orange;
+}
+
+/* length defines the hight and width better to use % rather than auto.
+/* use # to make it an ID*/
+
+.homepage{
+    width: 60%;
+}
+
+.homepage{
+    width: 100%;
+}
+
+.info{
+    width:60%;
+}
+
+.enquires{
+    width:50%;
+}
+
+.homepage{
+    display:flex;
+    justify-content:center;
+}
+
+#navbar{
+    background-color:orange;
+    height:40px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center ;
+}
+
+#navbar a{
+    color: red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar a:hover{
+    color:aliceblue;
+}
+
+.rates{
+    display:flex;
+}
+
+.lists {
+    display: flex;
+    color: ghostwhite;
+
+}
+/*flexbox, main access is across the screen."justify" moves left and right. 
+"align-items" will move it up and down.
+flex-direct: column; will make columns.*/
+
+/* flexbox froggy website to study.*/
+
+
+
